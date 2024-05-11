@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 6rem;
+    padding: 10px;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    gap: 125px;
+    padding: 30px;
+    list-style: none;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{  
+    color:Black;
+    text-decoration: none;
+}
+#hero{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/main2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#viajes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+#viajes img{
+    height: 10rem;
+}
+#viajes div{
+    border-color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 38, 255, 0.5);
+}
+#viajes p{
+    font-size: small;
+}
+h1{
+    color: white;
+}
+#viajes input{
+    margin: 10px;
+}
+.navBar a:hover{
+    color: blue;
+    transition: all 0.5s;
+    font-size: 1.25rem;
+}
+#viajes img:hover{
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+.btn {
+    background: #0099ff;
+    background-image: -webkit-linear-gradient(top, #0099ff, #009dff);
+    background-image: -moz-linear-gradient(top, #0099ff, #009dff);
+    background-image: -ms-linear-gradient(top, #0099ff, #009dff);
+    background-image: -o-linear-gradient(top, #0099ff, #009dff);
+    background-image: linear-gradient(to bottom, #0099ff, #009dff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
